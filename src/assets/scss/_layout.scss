@@ -1,0 +1,23 @@
+.slid-up-enter-active {
+  transition: all 0.3s;
+}
+.slid-up-leave-active {
+  transition: all 0.1s;
+}
+.slid-up-enter-from,
+.slid-up-leave-to {
+  opacity: 0;
+  transform: translateY(8px);
+}
+.fade-in-enter-active,
+.fade-in-leave-active {
+  transition: all 0.2s;
+}
+.fade-in-enter-from,
+.fade-in-leave-to {
+  opacity: 0;
+}
+
+.flex {
+  @include flex();
+}

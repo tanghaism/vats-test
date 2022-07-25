@@ -1,0 +1,41 @@
+{
+  "name": "template",
+  "description": "",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^3.2.9",
+    "axios": "^0.27.2",
+    "cropperjs": "^1.5.12",
+    "pinia": "^2.0.14",
+    "vats": "ssh://git@github.com:tanghaism/vats.git#master",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.0.16",
+    "vue-watermarker": "^0.0.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "sass": "^1.53.0",
+    "semver": "^7.3.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-pwa": "^0.12.1",
+    "vue-demi": "^0.13.1",
+    "vue-tsc": "^0.38.2"
+  }
+}
